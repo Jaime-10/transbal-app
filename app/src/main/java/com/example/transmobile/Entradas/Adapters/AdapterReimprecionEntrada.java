@@ -27,6 +27,7 @@ public class AdapterReimprecionEntrada extends RecyclerView.Adapter<AdapterReimp
     public AdapterReimprecionEntrada(Context context, List<mEntrada> list) {
         this.context = context;
         List = list;
+        
     }
 
     @NonNull
